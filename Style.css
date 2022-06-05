@@ -1,0 +1,101 @@
+#navbar ul{
+    display: none;
+    background-color: #d5d5d5;
+    position: absolute;
+    top: 100%;
+margin: 0px;width: 100%;
+  }
+  #navbar li:hover ul { display: block; }
+  #navbar, #navbar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+  }
+  #navbar {
+    height: 30px;
+    background-color: #c1caca;
+    padding-left: 25px;
+    min-width: 470px;
+margin: 0px;width: 100%;
+  }
+  #navbar li {
+    float: left;
+    position: relative;
+    height: 100%;
+margin: 0px;
+  }
+  #navbar li a {
+    display: block;
+    padding: 6px;
+    width: 100px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+margin: 0px;
+  }
+  #navbar ul li { float: none; }
+  #navbar li:hover { background-color: #84c3be; }
+  #navbar ul li:hover { background-color: #84c3be; }
+
+ #oknoLog {
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    padding: 15px;
+Background-color: #C0C0C0;
+box-shadow: 5px 5px;
+    color: #c7d0cc;
+    display: none;
+    position: absolute;
+    top: 0;
+    color:black;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+  }
+  #oknoLog:target {display: block; 
+    margin: auto;}
+  .close {
+    color: #0000cc;
+    right: 10px;position: absolute;
+    text-decoration: none;
+    font-size: 14pt;
+    cursor:pointer;
+  }
+  .close:hover {background: #e6e6ff;}
+.close{
+    margin: 0px;padding: 0px;}
+
+
+    
+ #oknoreg {
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    padding: 15px;
+Background-color: #C0C0C0;
+box-shadow: 5px 5px;
+    color: #c7d0cc;
+    display: none;
+    position: absolute;
+    top: 0;
+    color:black;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+  }
+  #oknoreg:target {display: block; 
+    margin: auto;}
+  .closereg {
+    color: #0000cc;
+    right: 10px;position: absolute;
+    text-decoration: none;
+    font-size: 14pt;
+    cursor:pointer;
+  }
+  .closereg:hover {background: #e6e6ff;}
+.closereg{
+    margin: 0px;padding: 0px;}
+    table {width: 200px;}
