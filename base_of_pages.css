@@ -1,0 +1,334 @@
+
+html,body 
+	{
+	margin: 0%; 
+	height: 100%; 
+	background-color: #EEF3FC;
+	max-height:100vh;
+	}
+
+#pagewrap 
+	{
+	width: 100%;
+	margin: 0 auto;
+	}
+
+/* начало хедера*/
+header 
+	{
+	  margin: 0%;
+	  z-index: 12222;
+	  height:auto ;
+	  background-color: #EEF3FC;
+	}
+
+#Logo
+	{
+	margin: 10px 15px 0px ;
+	display:inline-block;
+	}
+
+/* начало правой панельки входа,помощи, личного кабинета*/
+	#ForUsers a 
+		{
+		text-decoration: none;
+		color: black;
+		margin: 0;
+		}
+
+	#ForUsers a:hover 
+		{
+		  color: blue;
+		}
+
+	#ForUsers
+		{
+		display: inline-block;
+		margin: 0px;
+		height:30px;
+		position: absolute;
+		right:0%	;
+		}
+/* конец правой панельки входа,помощи, личного кабинета*/
+
+
+/* начало панели по центру экрана*/
+#navbar 
+	{
+	margin: 0;
+	margin-top: 35px; 
+	padding: 0; 
+	text-align:center;
+	list-style-type: none;
+	width:100%;
+	}
+									
+#navbar li 
+	{
+	display: inline-block; 
+	border-bottom: 2px solid #EEF3FC;
+	display: inline-block;
+	transition: 0.1s;
+	color: black;
+	margin-left: 25px;
+	font-family: Century Gothic, Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	text-decoration: none;
+	}
+	
+.icons
+	{
+	margin: 15px 0;
+	float:left;
+	}
+#navbar li:hover 
+	{
+	border-bottom: 2px solid black; 
+	transition: 0.1s;
+	}
+
+/* конец панели по центру экрана*/
+
+/* конец хедера*/
+
+#vacancii,#About_us, #For_Pacients {
+  position: absolute;
+  height: 1100px;
+  width: 60%;  
+        display: none;
+  padding: 15px;
+  background: linear-gradient(#ffff, #d1dfeb);
+  left: 5%;
+  top: 300Px; box-shadow: 0 0 3px 0.1px black;
+  font: bold 10pt Arial, Helvetica, Tahoma;
+    z-index: -1;
+    border-radius: 5px;
+}
+      #vacancii,#About_us, #For_Pacients:target {display: block;}
+
+table {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 14px;
+border-collapse: collapse;
+text-align: center;
+width: 100%;
+}
+th, td:first-child {
+background: #5B7594;
+color: white;
+padding: 10px 20px;
+}
+th, td {
+border-style: solid;
+border-width: 0 1px 1px 0;
+border-color: white;
+}
+td {
+background: #D8E6F3;
+}
+th:first-child, td:first-child {
+text-align: left;
+}
+
+#infa{
+
+        float:left;
+        width: 65%;
+        background-color: #c9e2f1;
+        margin: auto;
+        padding: 10px;
+        font-family: Century Gothic, Helvetica, Arial, sans-serif;
+
+}
+
+#infa p{
+  font-size: 20px;
+text-indent: 25px;
+}
+
+
+              #title{
+                margin: 0px;
+                display: inline-block;
+                font-size: 45px;
+                          font-family: Century Gothic, Helvetica, Arial, sans-serif;
+                          transition: 0.1s;
+
+      }  
+    @media (min-width: 10px) and (max-width: 800px) {
+      #title{
+        font-size: 1.3em; //18px
+      }  
+      #navbar li {
+        width: 100%;
+       margin-left: 0;
+                }              
+      #NEWS{margin:auto;
+       width: 100%;}
+      .ForUsers{
+        font-size: 0.9em; //18px
+      }
+      #infa{
+       width: 100%;
+       margin-left: 0;
+}
+    }
+    @media (min-width: 900px) {
+      #title{
+        font-size: 1.9em; //18px
+      }
+    }
+
+              
+      #big_img{
+        width: 100%;
+        margin: 0;
+      }
+      #NEWS{
+        width: 30%;
+        height: 500px;
+        background-color: #3e6494;
+        border-color : #8E3C3A;
+        margin: 0;
+        border-width: 3px;
+        float:right;
+        padding:10px;
+        font-family: Century Gothic, Helvetica, Arial, sans-serif;
+        color: white;
+      }  
+
+
+
+       main {
+                 height: 900px;
+                 max-width: 1360px;
+                 margin: auto;
+                 margin-top: 0;
+                 background-color:#cad7fa;
+
+  box-sizing: border-box;
+  min-height: 100%;
+  padding-bottom: 90px;
+  flex: 1 0 auto;  d
+  isplay: table-row;
+  /* Чтобы ряд занимал всё оставшееся пространство, так как табличная разметка не позволит ему вытолкнуть header и footer */
+  height: 100%;
+              }
+footer{
+    background-color:#5b7594;
+  flex: 0 0 auto;
+    width:100%;
+    height: 200px;  white-space: nowrap;
+	padding-top:15px;
+} 
+footer div{
+	margin: 15px;
+}
+      footer text{
+        font-family: Century Gothic, Helvetica, Arial, sans-serif;
+  font-size: 15px;display: inline-block;
+vertical-align: top;  margin-right: 4%;
+}
+
+       #zatemnenie_reg {
+        background: rgba(102, 102, 102, 0.5);
+        width: 100%;
+        height: 224%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+	      flex:0 0 auto;
+      }
+      #zatemnenie_reg:target {display: block;}
+      .close {
+        color: #5b7594;
+        right: 0% ;
+        text-decoration: none;
+        position: absolute;
+        cursor:pointer;
+        margin: 0 5px ;
+      }
+
+      .close:hover {background: #e6e6ff;}
+
+	  #text_reg{
+        position: absolute;
+        padding: 0px;
+        margin: 0px;
+      }
+		.reg {position: absolute; 
+        padding: 5px;
+      }
+		
+       #zatemnenie_log {
+        background: rgba(102, 102, 102, 0.5);
+        width: 100%;
+        height: 224%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+	      flex:0 0 auto;
+      }
+      #okno_log {
+        width: 250px;
+        height: 160px;
+        padding: 10px;
+        color: #2568a7;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 20% 42%;
+        background: #fff;box-shadow: 0 0 3px 0.1px black;
+      }
+      #zatemnenie_log:target {display: block;}
+
+	  #text_log{  
+        position: absolute;
+        padding: 0px;
+        margin: 0px;
+      }
+
+		.log {
+      position: absolute; 
+      padding: 5px;
+      }
+		
+		
+		#login_log,#password_log, #login_reg,#password_reg,#register_button_reg		{
+			margin:5px;
+		}
+		 #okno_reg {
+        width: 250px;
+        height: 150px;
+        padding: 10px;
+        color: #2568a7;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 20% 42%;
+        background: #fff;box-shadow: 0 0 3px 0.1px black;
+      }
+	  
+	  #menu{
+      list-style-type: none;
+	  }
+	   #str{
+		   margin:50px 0;
+	  }
+	   #str a{	  
+	   text-decoration: none;
+	   }
+	   
+
+        
+        #polosa{
+          margin: 15px auto; 
+          width:99%; 
+          border-top:2px solid #5b7594;
+        }
